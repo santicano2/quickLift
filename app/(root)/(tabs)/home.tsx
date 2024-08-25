@@ -13,6 +13,7 @@ import { icons, images } from "@/constants";
 
 import RideCard from "@/components/RideCard";
 import GoogleTextInput from "@/components/GoogleTextInput";
+import Map from "@/components/Map";
 
 const recentRides = [
   {
@@ -182,8 +183,14 @@ export default function Page() {
               <Text className="text-xl font-JakartaBold mt-5 mb-3">
                 Tu ubicación
               </Text>
-              <View className="flex flex-row items-center bg-transparent h-[300px]"></View>
+              <View className="flex flex-row items-center bg-transparent h-[300px]">
+                <Map />
+              </View>
             </>
+
+            <Text className="text-xl font-JakartaBold mt-5 mb-3">
+              Viajes recientes
+            </Text>
           </>
         )}
       />
