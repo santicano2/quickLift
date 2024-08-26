@@ -9,3 +9,4 @@ El objetivo de este proyecto es familiarizarme con React Native y sus funcionali
 - Expo
 - React Native
 - TailwindCSS
+- Clerk
