@@ -2,7 +2,7 @@
 
 App estilo Uber.
 
-El objetivo de este proyecto es familiarizarme con React Native y sus funcionalidades
+El objetivo de este proyecto es familiarizarme con React Native y sus funcionalidades.
 
 ## Stack
 
