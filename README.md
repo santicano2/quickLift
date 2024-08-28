@@ -10,3 +10,7 @@ El objetivo de este proyecto es familiarizarme con React Native y sus funcionali
 - React Native
 - TailwindCSS
 - Clerk
+
+## TODO
+
+- Cambiar Stripe por Mercado Pago
