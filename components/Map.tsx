@@ -42,7 +42,7 @@ const Map = () => {
 
       setMarkers(newMarkers);
     }
-  }, [drivers]);
+  }, [drivers, userLatitude, userLongitude]);
 
   useEffect(() => {
     if (markers.length > 0 && destinationLatitude && destinationLongitude) {
@@ -98,6 +98,20 @@ const Map = () => {
           }
         />
       ))}
+
+      {destinationLatitude && destinationLongitude && (
+        <>
+          <Marker
+            key="destination"
+            coordinate={{
+              latitude: destinationLatitude,
+              longitude: destinationLongitude,
+            }}
+            title="Destino"
+            image={icons.pin}
+          />
+        </>
+      )}
     </MapView>
   );
 };
