@@ -69,7 +69,7 @@ const BookRide = () => {
                 Tiempo en venir
               </Text>
               <Text className="text-lg font-JakartaRegular">
-                {formatTime(driverDetails?.time! || 5!)}
+                {formatTime(parseInt(`${driverDetails?.time}`))}
               </Text>
             </View>
 

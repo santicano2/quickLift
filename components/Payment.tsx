@@ -46,6 +46,10 @@ const Payment = ({
           customer_id: customer,
         }),
       });
+
+      if (result.client_secret) {
+        // ride/create
+      }
     }
 
     const { clientSecret, error } = await response.json();
